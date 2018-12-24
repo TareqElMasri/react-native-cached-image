@@ -46,13 +46,15 @@
     "utils/pathUtils.js"
   ],
   "typings": "./index.d.ts",
-  "peerDependencies": {
+  "dependencies": {
+    "url-parse": "^1.4.1",
     "crypto-js": "3.1.9-1",
     "lodash": "^4.17.10",
-    "prop-types": "15.5.10",
     "react-native-clcasher": "1.0.0",
-    "rn-fetch-blob": "^0.10.15",
-    "url-parse": "^1.4.1"
+  },
+  "peerDependencies": {
+    "prop-types": "15.5.10",
+    "rn-fetch-blob": "^0.10.15"
   },
   "devDependencies": {
     "babel-jest": "^21.0.2",
